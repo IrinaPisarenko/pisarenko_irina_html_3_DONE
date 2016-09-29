@@ -1,0 +1,139 @@
+body{
+	background-color:#f9f9f9;
+	margin:0;
+}
+.vse_vse{
+	width:1000px;
+	margin:0 auto;
+	padding:15px;
+	background-color:#ffffff;
+	border:2px solid #e1e1e1;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, .1),
+	-20px 0 20px -20px rgba(0, 0, 0, .1),
+	20px 0 20px -20px rgba(0, 0, 0, .1),
+	0 0 40px rgba(0, 0, 0, .1)
+	inset;
+	/* box-shadow:???; */
+}
+.vse_vse, .verh, .gmenu verhm {
+	width:1000px;
+}
+.gmenu{
+	margin:20px 0;
+}
+.gmenu a{
+	display:inline-block;/*разницу рассказать мне через неделю про инлайн-флекс про инлайн-блок*/
+	padding:15px;
+	margin-right:10px;
+	text-decoration:none;
+	/* узнать несколько способов как убрать прыгание меню*/
+}
+.verhm{
+	background-color:#4f4e4e;
+}
+.verhm a{
+	color:white;
+}
+.verhm a:hover{/*узнать как ховер работает на сенсорных устройствах*/
+	color:#ececec;
+	background:#333333;
+	border-left:1px solid white;
+	border-right:1px solid white;
+}
+.centr {
+	margin: 0;
+	padding: 0;
+}
+.abc {
+  width: 750px;
+  float: right;
+}
+.menu_centr {
+	float: left;
+	margin-left: -40px;
+	padding: 0;
+}
+.menu_centr a{
+	display: block;
+	list-style-type: none; /* Убираем маркеры */
+	color: grey;
+	text-decoration:none;
+	margin-bottom: -2px;
+	padding: 10px 14px;
+	border: 2px solid grey;
+	background-color: #ffffff;
+	width: 160px;
+}
+.menu_centr a:hover{
+	color:#2c2c2c;
+	border: 2px solid grey;
+	margin-bottom: -2px;
+	padding: 10px 14px;
+	border-left:1px solid grey;
+	border-right:1px solid grey;
+	text-align:center;
+}
+.abc img {
+	border: 2px solid white;
+}
+.nogi{
+	background-color: #e1e1e1;
+	/*clear: both;  УДАЛИЛИ
+	margin: 0;
+	padding: 0;*/
+}
+.nogi:after {
+					 content: "";
+           display: table;
+					 clear: both;/*clear: both; ВСТАВИЛИ */
+			 }
+ .centr:after {
+					 content: "";
+					 display: table;
+					 clear: both;/*clear: both; ВСТАВИЛИ */
+			 }
+.menu_centr ul {
+	list-style: none;
+}
+p {
+	color: grey;
+	width: 700px;
+}
+.nogim a{
+	color:#282828;
+}
+.nogim a:hover{
+	text-decoration:underline;
+}
+.nogim{
+	text-align: left;
+	width: 1000px;
+}
+.nogi div{
+	margin:0;
+
+}
+
+/*.nogi div{
+	border:2px solid #fff;
+}*/
+.nogim p {
+	color: black;
+	margin: auto;
+	text-align: right;
+  padding-top: 0;
+}
+.gmenu nogim a: last-child{
+text-align-last: right;
+}
+.nogi a: last-child {
+	float: right;
+}
+/*
+.copy:after {
+	clear: both;
+	display: block;
+}
+.copy{
+	float:right;
+}*/
